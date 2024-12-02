@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+    
+}
+.container{
+    
+    box-sizing: border-box;
+    border-bottom: .2px solid rgb(162, 157, 157);
+    background-color:white;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.image-container{
+    width: 100px;
+    height: 100px;
+    
+    
+
+}
+.himage{
+    
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+
+}
+.himahe:hover{
+    background-color: whitesmoke;
+}
+.heding-container{
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-weight: 900;
+    border:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+
+}
+.heding-container:hover{
+    background-color: whitesmoke;
+}
+.search{
+    width: 700px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    border: none;
+    
+
+}
+.login{
+    width: 100px;
+    height: 100px;
+    font-weight: 900;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+   
+    
+}
+.login:hover{
+    background-color: whitesmoke;
+}
+.mycard{
+    width: 150px;
+    height: 70px;
+    background-color: green;
+    font-weight: 900;
+    box-sizing: border-box;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 6px;
+     
+}
+.shopping:hover{
+    cursor: pointer;
+
+}
+.paanshop{
+    width: 100%;
+    margin-top: 100px;
+}
+.homeimage{
+    width: 100%;
+    height: 100%;
+}
+.iteamall{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    gap: 20px;
+    border: none;
+
+    
+}
+.iteam{
+    width: 400px;
+    height: 400px;
+
+}
+.iteam>a,img{
+    width: 100%;
+    height: 70%;
+}
+.order-list{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100;
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    gap: 20px;
+    border: none;
+}
+.purchase{
+    width: 100%;
+    display: flex;
+    background-color:white;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+
+}
+.purchaseiteam{
+width: 150px;
+height: 275px;
+border: .1px solid black;
+border-radius: 6px;
+}
+.add{
+    display: flex;
+ align-items: center;
+ justify-content:space-between;
+ padding: 5px;
+
+
+
+}
+.btn{
+    width: 50px;
+    height: 25px;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(215, 203, 203);
+    color: green;
+    border-radius: 5px;
+    
+}
+.lists{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+
+    
+}
+.useful{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    gap: 20%;
+    
+    
+}
+.firstlist>ul>li{
+    color:black;
+    margin-left: 20px;
+    
+    
+
+ 
+}
+.catagries{
+    margin-left: 10%;
+    
+}
+.icons{
+    width: 100%;
+    font-size:3rem;
+    background-color:whitesmoke;
+
+
+}
+.icons>a{
+float: right;
+color: black;
+margin-right: 2rem;
+}
+
